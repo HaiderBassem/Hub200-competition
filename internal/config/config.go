@@ -20,9 +20,9 @@ func Load() *Config {
 		Database: DatabaseConfig{
 			Host:     getEnv("DB_HOST", "localhost"),
 			Port:     getEnv("DB_PORT", "5432"),
-			User:     getEnv("DB_USER", "postgres"),
-			Password: getEnv("DB_PASSWORD", "password"),
-			DBName:   getEnv("DB_NAME", "googleformsdb"),
+			User:     getEnv("DB_USER", "haider"),
+			Password: getEnv("DB_PASSWORD", "ha0770"),
+			DBName:   getEnv("DB_NAME", "googleforms"),
 			SSLMode:  getEnv("DB_SSL_MODE", "disable"),
 		},
 	}
